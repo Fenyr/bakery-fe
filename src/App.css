@@ -10,3 +10,7 @@ body {
 .active {
   @apply bg-black text-white;
 }
+
+.card-price {
+  @apply text-orange-400 opacity-70 font-semibold;
+}

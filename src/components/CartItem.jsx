@@ -1,5 +1,6 @@
 import React from "react";
-export function CartItem({}) {
+export function CartItem(props) {
+  // const { id = 1, title = "no title", description = "no desc" } = props.data;
   return (
     <div className="cart-item flex items-start gap-4">
       <input type="checkbox" className="checkbox-sm" />

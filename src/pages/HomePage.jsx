@@ -1,7 +1,10 @@
+import { useEffect } from "react";
 import { NavBar } from "../components/NavBar";
 import ProductItem from "../components/ProductItem";
+import ProductModel from "../models/ProductModel";
 
 export default function HomePage() {
+  const { data, status } = ProductModel();
   return (
     <>
       <p className="text-end font-bold mb-4 p-2">Bakery Shop</p>
