@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+body {
+  font-family: "Quicksand";
+}
+
+.nav-text {
+  writing-mode: vertical-lr;
+  @apply px-2 py-4 border rounded-r-lg;
+}
+.active {
+  @apply bg-black text-white;
+}
